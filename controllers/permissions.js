@@ -18,9 +18,7 @@ async function givePermission(userId,id,req,res){
     let record =  await db.query(`
         Select 
                 *
-                
         from user_permission
-    
         where
                 user_giving::integer = $1  and user_receiving::integer = $2
                 
