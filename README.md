@@ -1,3 +1,14 @@
+# Notes For anyone that will read the readme.md:
+This notes section is added on saturday. I think it is really needed and it doesn't add any value to the documentation or code:
+I just remembered I need to add it.
+
+ - This documentation is not fully finished :(. I forgot about it and didn't edit it well after finishing.
+ - Not all endpoints and routes are included here. Check files in routes folder. they present all the routes.
+ - A websocket route exists and allows a connection but does nothing. It needs the logic of: checking for if a permission exists with a new creation timestamp before then sending location updates....
+ - Run server with : CLI: node server.js
+
+The rest below was added on friday during trail time.
+
 # Node.js API with Express and PostgreSQL
 
 This project is a Node.js API built with Express and PostgreSQL. It provides endpoints for managing users, including creating and reading user data. The project also includes JWT authentication and uses Jest for testing.
